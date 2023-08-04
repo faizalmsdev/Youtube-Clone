@@ -19,12 +19,20 @@ async function fetchAndDisplayVideos() {
     for (const videoId of videoIds) {
         const card = document.createElement('div');
         card.classList.add('card');
+        card.setAttribute('data-video-id', videoId);
 
+        // Create an anchor tag for the thumbnail image
+        const thumbnailLink = document.createElement('a');
+        thumbnailLink.href = `videoDetails.html?videoId=${videoId}`;
+        thumbnailLink.target = '_blank'; // Open the link in a new tab
+        card.appendChild(thumbnailLink);
+
+        // Add the thumbnail image inside the anchor tag
         const thumbnail = document.createElement('img');
         thumbnail.src = `https://img.youtube.com/vi/${videoId}/mqdefault.jpg`;
         thumbnail.alt = 'Video Thumbnail';
         thumbnail.id = 'thumbnail'; // Add an ID to the thumbnail for the styles to apply
-        card.appendChild(thumbnail);
+        thumbnailLink.appendChild(thumbnail);
 
         const datasContainer = document.createElement('div');
         datasContainer.classList.add('datas');
@@ -137,3 +145,6 @@ function formatDuration(duration) {
     return formattedDuration;
 }
 window.addEventListener('load', fetchAndDisplayVideos);
+
+
+//Card component 

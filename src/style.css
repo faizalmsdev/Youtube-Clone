@@ -340,3 +340,14 @@ main{
     width: 100%;
   }
   
+
+/* Video details styles  */
+.primary{
+    padding-left: 120px;
+    padding-top: 100px;
+}
+
+#player{
+    width: 900px;
+    height: 550px;
+}

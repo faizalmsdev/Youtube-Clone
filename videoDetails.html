@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube</title>
+    <link rel="stylesheet" href="./src/style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <button class="hamburger"><img src="./assests/hamburger.png" alt="menu"></button>
+            <img src="./assests/Youtube-Logo-white.png" alt="logo">
+        </div>
+        <div class="search-bar">
+            <form class="search">
+                <input type="text" placeholder="Search">
+                <button type="submit" id="search" ><img src="./assests/search-white.png" alt="search-btn"></button>
+            </form>
+            <button class="mic"><img src="./assests/mic.png" alt="mic-btn"></button>
+        </div>
+        <div class="icons">
+            <a href="#" class="icon"><img src="./assests/camplus.png" alt=""></a>
+            <a href="#" class="icon"><img src="./assests/grid.png" alt=""></a>
+            <a href="#" class="icon"><img src="./assests/bell.png" alt=""></a>
+            <a href="#"><img src="./assests/Profile.png" alt=""></a>
+        </div>
+    </header>
+    <div class="primary">
+        <div class="top-section">
+            <div id="player"></div>
+            <div id="details"></div>
+        </div>
+    </div>
+    
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="./src/vdscript.js"></script>
+</body>
+</html>
