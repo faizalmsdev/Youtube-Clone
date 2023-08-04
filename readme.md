@@ -11,5 +11,3 @@ API Key Reference- https://www.googleapis.com/youtube/v3/endpoint?key={apiKey
 Search API Documentation- https://developers.google.com/youtube/v3/docs/search/list
 
 Video List API Documentation- https://developers.google.com/youtube/v3/docs/videos/list
-
-APi key : AIzaSyAaVT-l1P4IhS7NInhY7re--qeYW2yHP0E
