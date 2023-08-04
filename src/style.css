@@ -344,16 +344,16 @@ main{
 /* Video details styles  */
 
 .primary{
-    padding-left: 120px;
+    padding-left: 80px;
     padding-top: 100px;
-    width: 1100px;
+    width: 900px;
     height: 100vh;
     background-color: #212121;
     float: left;
 }
 
 #player{
-    width: 950px;
+    width: 800px;
     height: 550px;
     margin-bottom: 22px;
 }
@@ -396,10 +396,10 @@ main{
 .secondary{
     float: right;
     position: relative;
-    top: 110px;
+    top: 100px;
     background-color: #212121;
     /* padding: 32px; */
-    right: 20px;
+    right: 50px;
 }
 
 body{
@@ -416,7 +416,7 @@ body{
 .text-details h2{
     color: var(--white-color, #FFF);
     font-family: Roboto;
-    font-size: 22px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: 32px; /* 142.857% */
