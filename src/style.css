@@ -342,12 +342,104 @@ main{
   
 
 /* Video details styles  */
+
 .primary{
     padding-left: 120px;
     padding-top: 100px;
+    width: 1100px;
+    height: 100vh;
+    background-color: #212121;
+    float: left;
 }
 
 #player{
-    width: 900px;
+    width: 950px;
     height: 550px;
+    margin-bottom: 22px;
+}
+
+#details{
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    padding-bottom: 32px;
+    border-bottom: 1px solid #303030;
+}
+
+.btns {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    padding-right: 18px;
+}
+
+.btns button{
+    background-color: transparent;
+    border: none;
+}
+
+.details-date{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btns span {
+    display: flex;
+    align-items: center;
+}
+
+.btns span button{
+    margin-right: 12px;
+}
+
+/* Secondary  */
+.secondary{
+    float: right;
+    position: relative;
+    top: 110px;
+    background-color: #212121;
+    /* padding: 32px; */
+    right: 20px;
+}
+
+body{
+    background-color: #212121;
+}
+
+.s-card{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    width: 570px;
+}
+
+.text-details h2{
+    color: var(--white-color, #FFF);
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 142.857% */
+    margin-top: 4px;
+}
+
+.s-card img{
+    width: 230px;
+    height: 134px;
+}
+
+.text-details h3{
+    color: var(--gray-color, #AAA);
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 150% */
+    margin-top: 8px;
+}
+
+.s-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
 }

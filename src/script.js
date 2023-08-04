@@ -9,8 +9,19 @@ const videoIds = [
     'rn6YKmqA2-k',
     'c6guls4N-k8',
     'zxWAUZKKCbI',
-    'esGUbfbOy9U'
+    'esGUbfbOy9U',
+    '9FhIxhKxLKc',
+    'ARbkbwvyIXw',
+    'hRsdYW5XhK0',
+    'DymLVe-ypaE',
+    'O0JaDDNmUhE',
+    'izY5Hfo4_ug',
+    'Xw1XfN7iutQ',
+    '8JMFggfEerY',
+    'SObxDUTr6ds',
+    '5GCJS0_taBo'
 ];
+
 
 async function fetchAndDisplayVideos() {
     const cardsContainer = document.querySelector('.cards');

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Youtube</title>
     <link rel="stylesheet" href="./src/style.css">
+    <link rel="icon" type="image/png" href="./assests/favicon_io (1)/android-chrome-512x512.png">
 </head>
 <body>
 
@@ -28,13 +29,51 @@
             <a href="#"><img src="./assests/Profile.png" alt=""></a>
         </div>
     </header>
-    <div class="primary">
-        <div class="top-section">
-            <div id="player"></div>
-            <div id="details"></div>
+    <body>
+        <div class="primary">
+            <div class="top-section">
+                <div id="player"></div>
+                <div id="details">
+                    <h1 id="title"> Loading...</h1>
+                    <div class="details-date">
+                        <h3>120k Views <span id="videoDate"></span></h3>
+                        <div class="btns">
+                            <span class="like-count"><button><img src="./assests/liked.png" alt="like-btn"></button>1.7K</span>
+                            <span class="like-count"><button><img src="./assests/dislike.png" alt="like-btn"></button>100</span>
+                            <span class="share-btn"><button><img src="./assests/Share.png" alt="share-btn"></button>SHARE</span>
+                            <span class="save-btn"><button><img src="./assests/Save.png" alt="save-btn"></button>SAVE</span>
+                            <span class="more-btn"><button><img src="./assests/More.png" alt=""></button></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
+        <div class="secondary">
+            <div class="s-cards">
+                <!-- <div class="s-card">
+                    <a href=""><img src="./assests/image 1.png" alt=""></a>
+                    <div class="text-details">
+                        <h2>Title of the video</h2>
+                        <h3>channel name</h3>
+                        <h3>view count and uploaded date</h3>
+                    </div>
+                </div>
+                <div class="s-card">
+                    <a href=""><img src="./assests/image 1.png" alt=""></a>
+                    <div class="text-details">
+                        <h2>Title of the video</h2>
+                        <h3>channel name</h3>
+                        <h3>view count and uploaded date</h3>
+                    </div>
+                </div> -->
+            </div>
+            
+        </div>
+    </body>
     
+
+
+
     <script src="https://www.youtube.com/iframe_api"></script>
     <script src="./src/vdscript.js"></script>
 </body>
